@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LenzeXmlDocument SchemaVersion="1.0" Lang="en-US">
-    <DescriptionInformation DocumentVersion="1.0.0.1" Creation="2026-06-01T16:59:34" PDBID="PDB20260601165934">
-        <Modification DateTime="2026-06-01T16:59:34"><![CDATA[Generated from PLC Designer]]></Modification>
+    <DescriptionInformation DocumentVersion="1.0.0.1" Creation="2026-06-03T11:40:48" PDBID="PDB20260603114048">
+        <Modification DateTime="2026-06-03T11:40:48"><![CDATA[Generated from PLC Designer]]></Modification>
     </DescriptionInformation>
     <DeviceInfo>
         <Name><![CDATA[Device]]></Name>
@@ -20,9 +20,79 @@
             <InstanceID>0x85A4354A</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[SliceFil]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x1C88F212</InstanceID>
+            <Name><![CDATA[L_IMHP_Intern]]></Name>
+            <InstancePath><![CDATA[Device.Application.L_IMHP_Intern.DeviceModuleHandler]]></InstancePath>
+            <InstanceID>0x3BD1A25D</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FormBelt.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xB3FC34E2</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x94FC0F87</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Slope.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x0D83632D</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterPacket.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xBB82832A</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x56A1AED3</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Discriminator.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x168DA2D2</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x9CDB3976</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale1.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x11C19793</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale2.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xF2882031</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale3.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x1A9FB090</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.SepBelt.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x83003A32</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverCoil.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x5D092BCA</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Gripper.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x2E386D47</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[CtrlAxis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Eccentric.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xC3ACB85D</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[OutputSystem]]></Name>
@@ -30,9 +100,9 @@
             <InstanceID>0xC7EA740A</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[Weighing]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xC2B6E02E</InstanceID>
+            <Name><![CDATA[SliceFil]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x1C88F212</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Gate]]></Name>
@@ -60,6 +130,26 @@
             <InstanceID>0x209A9B15</InstanceID>
         </Component>
         <Component>
+            <Name><![CDATA[Weighing]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xC2B6E02E</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[Interleaver]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xC77EBB68</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[FormBelt]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FormBelt.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x411B6E01</InstanceID>
+        </Component>
+        <Component>
+            <Name><![CDATA[InterleaverDosifier]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x53A6E8E9</InstanceID>
+        </Component>
+        <Component>
             <Name><![CDATA[Slope]]></Name>
             <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Slope.ModuleHandlerBase]]></InstancePath>
             <InstanceID>0x18495017</InstanceID>
@@ -70,9 +160,9 @@
             <InstanceID>0xCF3D75D8</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[FromBelt]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FromBelt.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x81C66518</InstanceID>
+            <Name><![CDATA[Knife]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x8860164F</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Discriminator]]></Name>
@@ -80,9 +170,9 @@
             <InstanceID>0xAE4CB05E</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[Knife]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x8860164F</InstanceID>
+            <Name><![CDATA[MasterGeneral]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xB42F72C9</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Scale1]]></Name>
@@ -98,11 +188,6 @@
             <Name><![CDATA[Scale3]]></Name>
             <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale3.ModuleHandlerBase]]></InstancePath>
             <InstanceID>0xCBD833EF</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[MasterGeneral]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xB42F72C9</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[SepBelt]]></Name>
@@ -125,19 +210,19 @@
             <InstanceID>0x684454EA</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[InterleaverDosifier]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x53A6E8E9</InstanceID>
+            <Name><![CDATA[EtherCAT_Master]]></Name>
+            <InstancePath><![CDATA[Device.Application.IoConfig_Globals.EtherCAT_Master.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x4FC86101</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[Interleaver]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xC77EBB68</InstanceID>
+            <Name><![CDATA[Axis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FormBelt.Axis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x85B5105F</InstanceID>
         </Component>
         <Component>
-            <Name><![CDATA[L_IMHP_Intern]]></Name>
-            <InstancePath><![CDATA[Device.Application.L_IMHP_Intern.DeviceModuleHandler]]></InstancePath>
-            <InstanceID>0x3BD1A25D</InstanceID>
+            <Name><![CDATA[Axis]]></Name>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.Axis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0xDECF1D3B</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
@@ -151,8 +236,8 @@
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FromBelt.Axis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x0167A96E</InstanceID>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.Axis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x9081A579</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
@@ -161,8 +246,8 @@
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.Axis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x9081A579</InstanceID>
+            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.Axis.ModuleHandlerBase]]></InstancePath>
+            <InstanceID>0x9C4421F0</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
@@ -178,11 +263,6 @@
             <Name><![CDATA[Axis]]></Name>
             <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale3.Axis.ModuleHandlerBase]]></InstancePath>
             <InstanceID>0x8145E4E5</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[Axis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.Axis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x9C4421F0</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[Axis]]></Name>
@@ -203,16 +283,6 @@
             <Name><![CDATA[Axis]]></Name>
             <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Eccentric.Axis.ModuleHandlerBase]]></InstancePath>
             <InstanceID>0x49AA2795</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[Axis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.Axis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xDECF1D3B</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[EtherCAT_Master]]></Name>
-            <InstancePath><![CDATA[Device.Application.IoConfig_Globals.EtherCAT_Master.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x4FC86101</InstanceID>
         </Component>
         <Component>
             <Name><![CDATA[AxisEccentric]]></Name>
@@ -293,76 +363,6 @@
             <Name><![CDATA[AxisScale3]]></Name>
             <InstancePath><![CDATA[Device.Application.IoConfig_Globals.AxisScale3.ModuleHandlerBase]]></InstancePath>
             <InstanceID>0xCB8C1089</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Slope.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x0D83632D</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterPacket.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xBB82832A</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.FromBelt.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xFA72695D</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Discriminator.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x168DA2D2</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Knife.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x56A1AED3</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale1.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x11C19793</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale2.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xF2882031</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.OutputSystem.Weighing.Scale3.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x1A9FB090</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.MasterGeneral.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x9CDB3976</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.SepBelt.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x83003A32</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverCoil.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x5D092BCA</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Gripper.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x2E386D47</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Eccentric.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0xC3ACB85D</InstanceID>
-        </Component>
-        <Component>
-            <Name><![CDATA[CtrlAxis]]></Name>
-            <InstancePath><![CDATA[Device.Application.GVL_MachineConfiguration.Line.SliceFil.Interleaver.InterleaverDosifier.Axis.CtrlAxis.ModuleHandlerBase]]></InstancePath>
-            <InstanceID>0x94FC0F87</InstanceID>
         </Component>
     </Components>
 </LenzeXmlDocument>
